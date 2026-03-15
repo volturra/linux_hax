@@ -1,3 +1,6 @@
+# This is a set of instructions for Fedora 43 attempting to run nVidia 595 drivers from Negativo17
+# I ran into a problem where S3 sleep worked fine on 590, but the switch to 595 broke that ability.
+
 # Use these to check last boot journalctl
 # journalctl -b -1 -e 
 # journalctl -b -1 -k | grep -iE '(suspend|sleep|nvidia|acpi|freeze|oom|error)' | tail -n 50 
